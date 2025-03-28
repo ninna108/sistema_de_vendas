@@ -1,0 +1,14 @@
+Este projeto consiste em um sistema de vendas para controlar e registrar as transações comerciais. O sistema permite cadastrar produtos, realizar vendas e calcular o total da venda com base nos itens vendidos.
+
+Funcionalidades
+
+Cadastro de produtos (nome, preço e quantidade).
+
+Registro de vendas, com a adição de produtos ao carrinho e cálculo do total da venda.
+
+Exibição do total de vendas realizadas.
+
+Tecnologias Utilizadas
+python
+
+este trabalho esta na licença mit

@@ -1,0 +1,62 @@
+print('ola')
+
+
+vendas = 1000
+meta = 500
+if vendas > meta:
+   print("bateu a meta")
+
+
+funcionarios = ["lira","alon","amanda"]
+if not "marcus" in funcionarios:
+    print("marcus e um funcionario novo")
+
+
+vendas_loja = 1000
+vendas_vendedor = 500
+if vendas_loja > 800 and vendas_vendedor > 800:
+    print("vendedor ganhara bonus")
+
+
+vendas_loja = 1000
+vendas_vendedor = 500
+if vendas_loja > 800 or vendas_vendedor > 800:
+    print("vendedor ganhara bonus")
+
+
+vendas_loja = 7000
+vendas_vendedor = 1000
+if vendas_loja > 800 and vendas_vendedor > 800:
+    print("vendedor ganhara bonus")
+else:
+    print("vendedor nao ganhara bonus")
+
+
+    vendas_loja = [1000]
+    vendas_vendedor = 1000
+    if vendas_loja > 800 and vendas_vendedor > 800:
+        print("vendedor ganhara bonus")
+    elif vendas_vendedor > 800:
+        print("vendedor ganhara uma lembrancinha")
+    else:
+        print("vendedor nao ganhara bonus")
+
+
+vendas = [1000]
+novas_vendas = [1000]
+if vendas is novas_vendas:
+    print("tudo igual")
+else:
+    print("sao diferentes")
+
+
+mes = int(input('qual o numero do mes que voce faz aniversario':)) 
+match mes:
+    case 1:
+        print("janeiro")
+    case 2:
+        print("fevereiro")
+    case 3:
+        print("março")
+
+
